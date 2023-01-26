@@ -1,5 +1,5 @@
 body {
-    background: blue;
+    background: pink;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     display: grid;
@@ -15,4 +15,19 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+p {
+    color:white;
+    max-width: 30em;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+    color: white;
 }
