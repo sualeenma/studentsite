@@ -1,33 +1,121 @@
-body {
-    background: pink;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
+/* GLOBAL RESET */
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+/* GLOBAL COLORS */
+body { color: rgba(0, 0, 0, 0.8); }
+a { color: rgb(0, 0, 0); }
+a:hover { color:rgb(162, 162, 162)}
+
+/* GLOBAL TYPOGRAPHY */
+BODY {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 88.75%; /* 14px */
+    line-height: 1.4;
+}
+/* SITE STRUCTURE */
+header {
+    background-color: rgb(218, 218, 218);
+    color: black;
+    padding: 1em;
     display: grid;
-    align-content: center;
-    min-height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
-h1 {
-    font-size: 48px;
-    text-transform: uppercase;
-    text-align: center;
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
-h2 {
-    text-align: center;
+header a:hover {
+    color: rgb(0, 0, 0)
 }
 
-p {
-    color:white;
-    max-width: 30em;
-    margin: 0 auto;
+/* SITE ID */
+.site-id h1 {
+    margin: 0;
 }
 
-ul {
-    margin: 0 auto;
+/* SITE NAV */
+.site-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-a {
-    color: white;
+.site-nav a {
+    display: block;
+    padding: 1em;
 }
+
+/* MAIN */
+main {
+    background:rgb(247, 247, 247);
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid black;
+    padding: 1em;
+}
+
+/* SOCIAL NAV */
+.social-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-nav a {
+    display: block;
+    padding: 1em;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 6em 1em;
+}
+
+.hero h2 {
+    font-size: 3em;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.hero p {
+    max-width: 30em;
+    margin: 1em auto;
+}
+
+/* COURSES SECTION */
+.courses {
+    padding: 6em 1em;
+    display: grid;
+    justify-content: center;
+}
+
+.courses ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.courses h3 {
+    text-align: center;
+}
+
+/* FOR DEV PURPOSES */
+/* body * {
+    background-color: rgba(0,0,0,.05) !important;
+    border: 1px solid rgba(0,0,0,.1) !important;
+    color: rgba(0,0,0,.5) !important;
+} */
