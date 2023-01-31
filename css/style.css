@@ -202,3 +202,16 @@ dd {
     border: 1px solid rgba(0,0,0,.1) !important;
     color: rgba(0,0,0,.5) !important;
 } */
+
+/* CUSTOM HOME PAGE STYLING */
+.page-home .hero {
+    background-image: url('joshua-reddekopp-7Oq9r2CiTLg-unsplash.jpg');
+    background-position: center top;
+    background-size: cover;
+}
+
+.page-home header {
+    
+    width: 100%;
+    
+}
