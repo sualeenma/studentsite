@@ -166,7 +166,7 @@ img {
 
   /* #BUTTONS */
 .button,
-button {
+button, form input[type="submit"] {
     font-size: inherit;
     line-height: 1;
     background-color: antiquewhite;
@@ -181,7 +181,8 @@ button {
   }
 
   .button:hover,
-  button:hover {
+  button:hover, 
+  form input[type="submit"]:hover  {
     background-color: bisque;
     border-color: antiquewhite;
     color: gray;
@@ -457,6 +458,11 @@ color: white;
 }
 }
 
+.hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
 
 
 @media (min-width: 768px) {
@@ -518,5 +524,44 @@ color: white;
     font-size: 1.4em;
     line-height: 1.3;
   } */
+
+  /* FORMS */
+
+  form {
+    max-width: 600px;
+    margin: 2em auto;
+  }
+
+  form label,
+  form input,
+  form textarea {
+    box-sizing: border-box;
+display: block;
+width: 100%;
+font-size: 1em;
+  }
+
+  form label {
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+  }
+
+  form input[type="text"],
+  form textarea {
+    border: 1px solid #ccc;
+    padding: .5em;
+    color: #666;
+  }
+
+  form textarea {
+    min-height: 10em;
+    line-height: 1.5;
+  }
+
+  form input[type="submit"] {
+
+    margin-top: 1.5em;
+    width: auto;
+  }
 
   
