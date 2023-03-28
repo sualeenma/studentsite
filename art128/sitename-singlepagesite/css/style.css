@@ -456,7 +456,7 @@ font-size: 1.5em;
 .toggle-nav[data-navstate="open"] .site-nav .menu-button.navicon::after {
 content: "\2715";
 }
-
+}
 
 .hidden {
 position: absolute;
