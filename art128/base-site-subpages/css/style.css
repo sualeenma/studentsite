@@ -564,4 +564,9 @@ font-size: 1em;
     width: auto;
   }
 
-  
+  /* CARDS */
+  .card {
+    background: #ccc;
+    padding: 1em 2em;
+    border-radius: 1em;
+  }
