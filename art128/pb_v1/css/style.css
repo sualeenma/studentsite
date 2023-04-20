@@ -140,34 +140,6 @@ blockquote cite:before {
 }
 
 
-/* HELPER CLASSES */
-.text-centered {
-  text-align: center;
-}
-
-.full-width {
-  max-width: none;
-  width: 100%;
-}
-
-.horiz-center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hidden {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-}
-
-.subheader {
-  color: #999;
-  margin-top: 1em;
-  font-style: normal;
-  font-weight: normal;
-  clear: both;
-}
 
 
 /* #IMAGES */
@@ -347,10 +319,7 @@ body.demo::before {
 
 /* SITE STRUCTURE */
 
-/* SITE HEADER */
-.site-header {
-  padding: 0.5em 4%;
-}
+
 
 /* ON LARGER SCREENS PLACE LOGO LEFT AND NAV RIGHT */
 @media (min-width: 768px) {
@@ -405,15 +374,10 @@ body.demo::before {
 }
 
 /* SECTIONS */
-section {
-  padding: 3em 0;
-}
 
 /* HERO */
 
 .hero {
-  padding: 6em 4%;
-  background-color: rgba(0, 0, 0, .1);
   text-align: center;
 }
 
@@ -621,10 +585,6 @@ form input[type="submit"] {
   padding-top: 3em;
 }
 
-#about {
-  background: rgba(0, 0, 0, 0.05);
-}
-
 #contact {
   background: rgba(0, 0, 0, .1);
 }
@@ -637,4 +597,36 @@ form input[type="submit"] {
   width: 100px;
   display: block;
   margin: auto;
-}\
+}
+
+#herotext {
+  display: inline-block;
+  width: 50%;
+  font-size: 7px;
+  margin-left: 9%;
+}
+
+#heroimg {
+  display: inline-block;
+  width: 40%;
+  right: 0;
+}
+
+#hero {
+  padding-right:0;
+}
+
+#aboutcontainer {
+  background: white;
+}
+
+#aboutimg{
+  width: 20%;
+  height: 20%;
+  display: inline-block;
+}
+
+#abouttext {
+  display: inline-block;
+  width: 60%;
+}
