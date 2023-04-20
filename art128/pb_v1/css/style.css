@@ -569,15 +569,11 @@ form input[type="submit"] {
   border-bottom: 3px solid rgba(0, 0, 0, .2);
 }
 
-.site-header.sticky {
-  position: fixed;
-  width: 100%;
+.site-header {
   background: rgb(241, 235, 231);
 }
 
-.site-header.sticky+main {
-  padding-top: 3em;
-}
+
 
 
 
@@ -595,22 +591,33 @@ form input[type="submit"] {
   margin: auto;
 }
 
-#herotext {
-  display: inline-block;
+.heroinnercontainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3em 0;
+}
+
+.herotext {
+  /* display: inline-block; */
   width: 50%;
-  font-size: 7px;
-  margin-left: 9%;
 }
 
-#heroimg {
-  display: inline-block;
+.herotext h1 {
+  font-size: 2em;
+  font-family: minionpro;
+}
+
+.herotext p {
+  font-family: kohinoortelugu;
+  font-size: 0.9em;
+}
+
+.heroimg {
+  margin-top: 90px;
   width: 40%;
-  right: 0;
+  display: inline-block;
 }
 
-#hero {
-  padding-right:0;
-}
 
 #aboutcontainer {
   background: white;
@@ -626,3 +633,7 @@ form input[type="submit"] {
   display: inline-block;
   width: 60%;
 }
+
+/* * {
+  border: 1px solid red;
+} */
