@@ -197,10 +197,9 @@ body {
 
 /* CONTAINER */
 .container {
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 0 4%;
-  background-color: #F3EAE8;
 }
 
 /* MEDIA QUERIES */
@@ -378,15 +377,10 @@ body.demo::before {
 /* HERO */
 
 .hero {
-  text-align: center;
+ 
+  background-color: rgb(241, 235, 231);
 }
 
-.hero h1,
-.hero p {
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /* TOGGLE NAV */
 
@@ -578,12 +572,14 @@ form input[type="submit"] {
 .site-header.sticky {
   position: fixed;
   width: 100%;
-  background: white;
+  background: rgb(241, 235, 231);
 }
 
 .site-header.sticky+main {
   padding-top: 3em;
 }
+
+
 
 #contact {
   background: rgba(0, 0, 0, .1);
