@@ -665,7 +665,7 @@ form input[type="submit"] {
 }
 
 .galleryimgbox {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -674,13 +674,13 @@ form input[type="submit"] {
 }
 
 .galleryimg {
-  width: 6rem;
-  height: 6rem;
+  width: 10rem;
+  height: 10rem;
 }
 
 .instaimg{
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .arrowimgbox {
@@ -696,6 +696,11 @@ form input[type="submit"] {
 
 .footertext {
   text-align: center;
+}
+
+.footerimg {
+  width: 2rem;
+  height: 1.5rem;
 }
 
 
