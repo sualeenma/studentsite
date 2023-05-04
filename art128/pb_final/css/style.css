@@ -401,6 +401,10 @@ section {
   margin-bottom: 10rem;
 }
 
+.section-title {
+  margin-bottom: 5rem;
+}
+
 /* HERO */
 
 .hero {
@@ -685,7 +689,7 @@ form input[type="submit"] {
 }
 
 #menu > .container {
-  margin-top: 170px;
+  margin-top: 270px;
 }
 
 #menu .section-title {
